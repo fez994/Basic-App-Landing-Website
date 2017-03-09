@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "Moon Light";
+	src: url("../fonts/Moon-Light.otf");
+}
+
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #FFF;
+}
+
+.container {
+	margin: 18%;
+}
+
+
+#title {
+	letter-spacing: 0.2em;
+	color: #30231d;
+	font-family: "Moon Light"
+}
+
+#subtitle {
+	letter-spacing: 0.1em;
+	color: #30231d;
+	font-family: "Moon Light";
+	font-size: 1.2em;
+}
+
+.content-container {
+	position: relative;
+	background-color: white;
+}
