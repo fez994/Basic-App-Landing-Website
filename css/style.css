@@ -3,25 +3,32 @@
 	src: url("../fonts/Moon-Light.otf");
 }
 
-
-body {
-	background-image: url(../img/bg.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: #FFF;
+body, html {
+	height: 100%;
+	background-color: #f2efe8;
 }
 
-.container {
-	margin: 18%;
+
+
+.header {
+	background: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.header-title {
+  padding-top: 20%;
 }
 
 
 #title {
 	letter-spacing: 0.2em;
 	color: #30231d;
-	font-family: "Moon Light"
+	font-family: "Moon Light";
+	font-size: 3em;
 }
 
 #subtitle {
@@ -31,7 +38,37 @@ body {
 	font-size: 1.2em;
 }
 
-.content-container {
-	position: relative;
-	background-color: white;
+#share {
+	font-family: 'Moon Light';
+	letter-spacing: 0.12em;
 }
+
+
+.content-container {
+	padding-top: 5%;
+	background-color: #f2efe8;
+	padding-bottom: 5%;
+}
+
+.section {
+	padding-top: 8%;
+	padding-bottom: 8%;
+	background-color: #f2efe8;
+
+}
+
+.underline {
+	height: 2px;
+	width: 40%;
+	margin: 0px auto 60px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 60px;
+	margin-left: auto;
+		}
+
+.color {
+	background:#b0aac2;
+}
+
+
