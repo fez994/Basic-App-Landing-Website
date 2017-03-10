@@ -71,4 +71,7 @@ body, html {
 	background:#b0aac2;
 }
 
-
+.moveme {
+	display: inline-block;
+	text-align: right;
+}
