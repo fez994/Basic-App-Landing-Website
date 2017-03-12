@@ -5,7 +5,6 @@
 
 body, html {
 	background-color: #f2efe8;
-	width: 100%;
 }
 
 
@@ -17,7 +16,7 @@ body, html {
 	background-attachment: fixed !important;
 	background-size: cover !important;
 	height: 100vh !important ;
-	width: 100% !important ;
+	width: 100vw!important ;
 }
 
 .header-title {
