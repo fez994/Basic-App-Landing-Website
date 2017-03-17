@@ -1,120 +1,179 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Basic Landing Page</title>
-	<!-- Bootstrap -->
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	 <!-- CSS -->
-  	<link rel='stylesheet' type="text/css" href='css/style.css'>
-  	<!-- UTF 8 -->
-  	<meta charset="utf-8">
-  	<!-- Animated CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  	<!-- Wow.js -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script><script>new WOW().init();</script>
+	<title>Mesh APP</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 
-<!-- Front page and title -->
+<!-- Navbar -->
 
 
-
-<!-- Background-IMG NOT SHOWING ON IPHONE 5S FOR I DON'T KNOW WHAT REASON, SCREW STEVE ZOMBIE JOBS -->
-<div class="header">
-	<div class="container animated zoomIn">
-	<div class="header-title">
-		<h1 class="text-center" id="title">Introducing Mesh</h1> 
+<nav class="navbar navbar-default navbar-fixed-top header" id="navbar">
+	<div class="container">	
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+		<span class="sr-only"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a href="#" class="navbar-brand">Mesh</a>	
 		</div>
-		<p class="text-center" id="subtitle">Capture the moments that matter.</p>
-	</div>
-</div>
 
-<!-- Share part -->
-<div class="content-container">
-	<div class="section">
-		<div class="section-container container">
-			<div class="row">
-				<div class="col-md-6 col-xs-6">
-					<img src="img/share.png" class="img-responsive">
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeInRight" >
-					<h1 id="share">Share</h1>
-					<p id="subtitle" style="text-align: justify;">Share your moments with the people who matter to you most. With Mesh, it's easy to share with the right people.</p>
-				</div>
-			</div>
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
 		</div>
 	</div>
-</div>
+</nav>
 
 
 
-<!-- Nice looking section divider -->
-<div class="underline color"></div> 
-
-
-
-<!-- Explore Section -->
-
-<div class="section">
-<div class="section-container container">
+<!-- Title and main content + title  -->
+<header>
+<div class="container">
 	<div class="row">
-		<div class="col-md-6 col-xs-6 wow fadeInLeft" >
-			<h1 id="share">Explore</h1>
-			<p id="subtitle" style="text-align: justify;"> Eplore Moments from your friends and famility. Mesh makes it easy to see what's happening in the world and take in everything around you. </p>
-		</div>
-		<div class="col-md-6 col-xs-6" class="explore" style="text-align: right;">
-			<div class="moveme"><img src="img/explore.png" class="img-responsive"></div>
-		</div>
-	</div>
-</div>
-</div> 
-
-<!-- Nice looking section divider -->
-<div class="underline color"></div>
-
-
-
-
-<!-- Save Section -->
-
-<div class="section">
-	<div class="section-container container">
-		<div class="row">
-			<div class="col-md-6 col-xs-6">
-				<img src="img/save.png" class="img-responsive" id="movemeright">
-			</div>
-			<div class="col-md-6 col-xs-6 wow fadeInRight">
-				<h1 id="share">Save</h1>
-				<p id="subtitle" style="text-align: justify;">Save every photo you take. Shutterbugg automatically saves your photos so you can show them off from anywhere.</p>
+		<div class="col-lg-12">
+		<div id="content">
+			<h1>Introducing Mesh</h1>
+			<hr>
+			<h3>Capture the moments that matter the most</h3>
+			
+			<button class="btn btn-default btn-lg">Download Mesh Now</button>
 			</div>
 		</div>
 	</div>
 </div>
 
+</header>
 
-<!--Nice Looking section divider -->
+<!-- First Section -->
 
-<div class="underline color"></div>
-
-<div class="section">
-	<div class="section-container container">
-		<div class="row" id="download_section">
-			<h1 class="text-center" id="download_mesh">Download Mesh Now</h1>
-			<div class="col-md-6 col-xs-6">
-			<a href="#">
-				<img src="img/app-store.png" width="182px" id="appstore" class="img-responsive"> </a>
-			</div>
-			<div class="col-md-6 col-xs-6">
-			<a href="#">
-				<img src="img/google-play.png" width="161px" class="img-responsive"></a>
-			</div>
+<section class="first_section">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-xs-6">
+			<img src="img/explore.png" class="img-responsive">
+		</div>
+		<div class="col-md-6 col-xs-6">
+			<h1>Explore</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
 </div>
+</section>
+
+
+<hr> <!-- Line that divides the sections -->
+
+
+<!-- Second Section -->
+
+<section class="second_section">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-xs-6">
+			
+			<h1>Save</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="col-md-6 col-xs-6">
+			<img src="img/save.png" class="img-responsive" id="float_me">
+		</div>
+	</div>
+</div>
+</section>
+
+
+<hr> <!-- Line that divides the sections -->
+
+<!-- Third Section -->
+<section class="third_section">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-xs-6">
+			<img src="img/save.png" class="img-responsive">
+			
+		</div>
+		<div class="col-md-6 col-xs-6">
+			<h1>Share</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+</div>
+</section>
+
+
+<hr>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-xs-12">
+		<div class="padding_btm">
+			<h1>Download Mesh Now</h1>
+		</div>
+		</div>
+
+		<div class="padding_btm">
+	<div class="row">
+		<div class="col-md-6 col-xs-6">
+			<img src="img/app-store.png" class="img-responsive" id="shrink_me">
+		</div>
+
+		<div class="col-md-6 col-xs-6">
+		<img src="img/google-play.png" class="img-responsive">
+			
+		</div>
+	</div>
+	</div>
+
+
+		</div>
+
+
+		</div>
+	</div>
 
 
 
 
+
+
+</script>
 
 </body>
 </html>

@@ -3,91 +3,148 @@
 	src: url("../fonts/Moon-Light.otf");
 }
 
-body, html {
-	background-color: #f2efe8;
-	height: 100% !important;
-	width: 100%;
-}
-
-
-
-.header {
-	background: url('../img/bg.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+html, body {
 	height: 100%;
 	width: 100%;
+	background-color: #C7C7C7;
+	}
+
+
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: black;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-.header-title {
-  padding-top: 20%;
+.navbar-default {
+	background-color: none;
+	border: none;
+	padding-top: 2%;
 }
 
 
-#title {
-	letter-spacing: 0.2em;
-	color: #30231d;
-	font-family: "Moon Light";
-	font-size: 3em;
-}
-
-#subtitle {
-	letter-spacing: 0.1em;
-	color: #30231d;
-	font-family: "Moon Light";
-	font-size: 1.2em;
-}
-
-#share {
-	font-family: 'Moon Light';
-	letter-spacing: 0.12em;
-}
-
-
-.content-container {
-	padding-top: 5%;
-	background-color: #f2efe8;
-	padding-bottom: 5%;
-}
-
-.section {
-	padding-top: 8%;
-	padding-bottom: 8%;
-	background-color: #f2efe8;
+.navbar {
+	margin-bottom: 0px;
+	background: none;
 
 }
 
-.underline {
-	height: 2px;
+.navbar-default .navbar-collapse {
+	border-color: none;
+}
+
+
+
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+hr {
 	width: 40%;
-	margin: 0px auto 60px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 60px;
-	margin-left: auto;
-		}
-
-.color {
-	background:#b0aac2;
+	border: 1px solid black;
 }
 
-.moveme {
-	display: inline-block;
-	text-align: right;
+
+.btn-default {
+	padding-top: 3%;
+	background: none;
+	border: none;
+	font-family: 'Moon Light';
+	font-size: 1.8em;
 }
 
-#appstore {
+.btn-default:hover {
+	background: none;
+	border: none;
+}
+
+.btn-default:after {
+	background: none;
+	border: none;
+}
+
+
+h1 {
+	font-family: 'Moon Light';
+	font-size: 4em;
+	font-weight: 100;
+	letter-spacing: 0.5em;
+	padding-bottom: 1%;
+}
+
+h3 {
+	font-family: 'Moon Light';
+	letter-spacing: 0.3em;
+}
+
+
+
+a {
+	font-family: 'Moon Light';
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	letter-spacing: 0.1em;
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+	letter-spacing: 0.2em;
+	font-size: 2em;
+
+}
+
+.first_section {
+	background-color: #C7C7C7;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	color: black;
+	
+}
+
+
+p {
+	padding-top: 2%;
+	font-family: 'Moon Light';
+}
+
+
+.second_section {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
+#float_me {
 	float: right;
 }
 
-#download_mesh {
-	padding-bottom: 5%;
-	letter-spacing: 0.2em;
-	color: #30231d;
-	font-family: "Moon Light";
-	font-size: 3em;
+.third_section {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
 
+
+#shrink_me {
+	width: 190px;
+	float: right;
+}
+
+
+.padding_btm {
+	padding-bottom: 5%;
 }
 
